@@ -1,6 +1,7 @@
 provider "google" {
   region="us-central1"
   zone="us-central1-a"
+project_id="sharp-avatar-410113"
 }
 resource "google_compute_instance" "default" {
   name         = "my-instance"
