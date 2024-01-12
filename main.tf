@@ -1,4 +1,4 @@
-/*provider "google" {
+provider "google" {
   region="us-central1"
   zone="us-central1-a"
 project="sharp-avatar-410113"
@@ -33,4 +33,4 @@ resource "google_compute_instance" "default" {
   metadata_startup_script = "echo hi > /test.txt"
 
 
-}*/
+}
